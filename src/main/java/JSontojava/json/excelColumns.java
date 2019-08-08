@@ -4,8 +4,16 @@ public class excelColumns {
 	private String excelcolumn;
 
     private String dtoexlname;
+    
+    private Boolean isTrue;
 
-    public void setExcelcolumn(String excelcolumn){
+    public Boolean getIsTrue() {
+		return isTrue;
+	}
+	public void setIsTrue(Boolean isTrue) {
+		this.isTrue = isTrue;
+	}
+	public void setExcelcolumn(String excelcolumn){
         this.excelcolumn = excelcolumn;
     }
     public String getExcelcolumn(){

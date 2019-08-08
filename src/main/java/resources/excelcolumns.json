@@ -3,24 +3,29 @@
 [
 	{
 		"excelcolumn":"Project ID",
-		"dtoexlname":"projectid"
+		"dtoexlname":"projectid",
+		"isTrue":true
 	},
 	{
 		"excelcolumn":"Project Name",
-		"dtoexlname":"projectname"
+		"dtoexlname":"projectname",
+		"isTrue":false
 	},
 	{
 		"excelcolumn":"Facility",
-		"dtoexlname":"facility"
+		"dtoexlname":"facility",
+		"isTrue":true
 	
 	},
 	{
 		"excelcolumn":"Project dec",
-		"dtoexlname":"projectdec"
+		"dtoexlname":"projectdec",
+		"isTrue":false
 	},
 	{
 		"excelcolumn":"Project inc",
-		"dtoexlname":"projectinc"
+		"dtoexlname":"projectinc",
+		"isTrue":true
 	}
 ]
 	

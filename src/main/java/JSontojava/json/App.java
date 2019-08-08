@@ -23,8 +23,10 @@ public class App
         System.out.println(e.getExcelColumns());
         List<excelColumns> l= e.getExcelColumns();
         for(excelColumns ec:l) {
+        	if(ec.getIsTrue()) {
         	excelcolnames.add(ec.getExcelcolumn());
         	dtocolnames.add(ec.getDtoexlname());
+        }
         }
         App ap = new App();
         ap.x();
