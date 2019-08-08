@@ -39,6 +39,7 @@ public class jsontojava {
 		 * block e.printStackTrace(); } catch (ParseException e) { // TODO
 		 * Auto-generated catch block e.printStackTrace(); }
 		 */
+		
 		/*
 		 * System.out.println("a"); ObjectMapper mapper = new ObjectMapper();
 		 * System.out.println("b"); InputStream is =
@@ -47,8 +48,10 @@ public class jsontojava {
 		 * excelcollist.class); System.out.println("d"); System.out.println("this is me"
 		 * + ex);
 		 */
+		 
 		ObjectMapper objectMapper = new ObjectMapper();
 		excelcollist excel = objectMapper.readValue(new File("G:\\Spring_WorkSpace\\json\\src\\main\\java\\resources\\excelcolumns.json"), excelcollist.class);
+		//excelcollist excel1 = objectMapper.readValue(new File(getClass().getClassLoader().getResource("excelcolumns.json").getFile()), excelcollist.class);
 		System.out.println(excel.toString());
 		System.out.println(excel);
 		return excel;
