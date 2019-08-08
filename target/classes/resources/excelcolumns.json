@@ -1,0 +1,27 @@
+{
+	"excelColumns":
+[
+	{
+		"excelcolumn":"Project ID",
+		"dtoexlname":"projectid"
+	},
+	{
+		"excelcolumn":"Project Name",
+		"dtoexlname":"projectname"
+	},
+	{
+		"excelcolumn":"Facility",
+		"dtoexlname":"facility"
+	
+	},
+	{
+		"excelcolumn":"Project dec",
+		"dtoexlname":"projectdec"
+	},
+	{
+		"excelcolumn":"Project inc",
+		"dtoexlname":"projectinc"
+	}
+]
+	
+}
